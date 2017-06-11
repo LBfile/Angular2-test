@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>项目管理</title>
+</head>
+<body>
+<div>
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4>项目管理</h4>
+        </div>
+        <div class="panel-body">
+            <div class="info">
+                <a [routerLink]="['XM_001']"   class="btn btn-success btn-sm">添加</a>
+                <button type="button" class="btn btn-warning btn-sm">编辑</button>&nbsp;
+                <button type="button" class="btn btn-danger btn-sm">删除</button>&nbsp;
+            </div>
+            <br/>
+            <table class="table table-bordered table-striped text-center" >
+                <thead>
+                <tr class="info">
+                    <td>
+                        <input type="checkbox" name="rememberLogin" ngModel="checkboxAll">
+                    </td>
+                    <td>
+                        id
+                    </td>
+                    <td>
+                        名称
+                    </td>
+                    <td>
+                        资金(元)
+                    </td>
+                    <td>
+                        创建者
+                    </td>
+                    <td>
+                        创建日期
+                    </td>
+                </tr>
+                </thead>
+
+                <tr *ngFor="let p of sysProjects let i = index" >
+                    <td>
+                        <input type="checkbox" name="rememberLogin" ngModel="sysProjects[i]">
+                    </td>
+                    <td>{{p.id}}</td>
+                    <td>{{p.name}}</td>
+                    <td>{{p.advanceMoney}}</td>
+                    <td>{{p.creater}}</td>
+                    <td>{{p.createrDate}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

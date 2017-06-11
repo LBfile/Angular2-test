@@ -1,0 +1,44 @@
+[
+  {
+    "id": "XM-001",
+    "name": "省工程PM3",
+    "advanceMoney":100000,
+    "creater":"张浩",
+    "createrDate":"2016-10-12"
+  },
+  {
+    "id": "XM-002",
+    "name": "北研院",
+    "advanceMoney":80000,
+    "creater":"柏振",
+    "createrDate":"2016-12-12"
+  },
+  {
+    "id": "XM-003",
+    "name": "无限极",
+    "advanceMoney":200000,
+    "creater":"刘辉",
+    "createrDate":"2016-12-20"
+  },
+  {
+    "id": "XM-004",
+    "name": "大腾峡",
+    "advanceMoney":90000,
+    "creater":"张晓民",
+    "createrDate":"2017-01-20"
+  },
+  {
+    "id": "XM-005",
+    "name": "省公司施工分包",
+    "advanceMoney":70000,
+    "creater":"陈历",
+    "createrDate":"2017-03-20"
+  },
+  {
+    "id": "XM-006",
+    "name": "公司OA",
+    "advanceMoney":83000,
+    "creater":"陈大明",
+    "createrDate":"2017-05-20"
+  }
+]

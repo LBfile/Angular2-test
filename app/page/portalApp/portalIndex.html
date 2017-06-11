@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<ul class="nav nav-tabs">
+    <li role="presentation" *ngFor="let r of resourcePortals"><a href="{{r.url}}">{{r.name}}</a></li>
+</ul>
+<h1>首页</h1>
+</body>
+</html>

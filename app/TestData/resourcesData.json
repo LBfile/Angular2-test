@@ -1,0 +1,17 @@
+[
+  {
+    "id": "sy_001",
+    "name": "首页",
+    "url":"/portalApp/index.html"
+  },
+  {
+    "id": "grzx_001",
+    "name": "个人中心",
+    "url":"/userApp/index.html"
+  },
+  {
+    "id": "xmgl_001",
+    "name": "项目管理",
+    "url":"/projectApp/index.html"
+  }
+]
